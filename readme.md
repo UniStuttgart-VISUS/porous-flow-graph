@@ -49,7 +49,7 @@ LuaVis depends on the following libraries, which have to be built (please use th
 
 After building the dependencies, configure LuaVis by running CMake with:
 ```
-cmake /path/to/source
+cmake /path/to/source -Dcppfs_DIR=/path/to/cppfs -DLUAJIT_DIR=/path/to/LuaJIT -DSFML_DIR=/path/to/lib/cmake/SFML -DZLIB_ROOT=/path/to/zlib
 ```
 
 Now build and install LuaVis.
