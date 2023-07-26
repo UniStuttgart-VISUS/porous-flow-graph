@@ -11,7 +11,7 @@ They provide all functionality to read image series from experiments, preprocess
 
 ### Get the code
 
-You can get MegaMol from its repository at [https://github.com/UniStuttgart-VISUS/megamol](https://github.com/UniStuttgart-VISUS/megamol).
+You can get MegaMol from its repository at [https://github.com/UniStuttgart-VISUS/megamol/tree/2023.07.26](https://github.com/UniStuttgart-VISUS/megamol/tree/2023.07.26).
 
 ### Build steps
 
