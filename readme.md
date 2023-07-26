@@ -2,6 +2,8 @@
 
 In the following, we will provide information about the implementation for our paper.
 
+If you are interested in replicating some of the figures in our paper, you can use the [replication script](#replication). Otherwise, follow the instructions for [MegaMol](#megamol) and [LuaVis](luavis).
+
 
 
 ## MegaMol
