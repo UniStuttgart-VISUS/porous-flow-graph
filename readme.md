@@ -44,10 +44,10 @@ You can get LuaVis from its repository at [https://github.com/UniStuttgart-VISUS
 LuaVis depends on the following libraries, which have to be built and installed.
 Best use the linked repositories for compatibility.
 
-- [LuaJIT](https://github.com/LuaJIT/LuaJIT)
+- [LuaJIT](https://github.com/LuaJIT/LuaJIT/tree/v2.1)
 - [cppfs](https://github.com/straubar/cppfs)
 - [SFML](https://github.com/Marukyu/SFML)
-- [zlib](https://github.com/madler/zlib.git)
+- [zlib](https://github.com/madler/zlib)
 
 After building the dependencies, configure LuaVis by running CMake with:
 ```
