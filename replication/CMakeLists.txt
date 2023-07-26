@@ -24,9 +24,8 @@ mark_as_advanced(FORCE
 
 # get MegaMol
 ExternalProject_Add(megamol
-    #GIT_REPOSITORY https://github.com/UniStuttgart-VISUS/megamol.git
-    GIT_REPOSITORY https://github.com/straubar/megamol.git
-    GIT_TAG origin/porous
+    GIT_REPOSITORY https://github.com/UniStuttgart-VISUS/megamol.git
+    GIT_TAG 6974ec3
     GIT_SHALLOW TRUE
     CMAKE_ARGS
         -DMEGAMOL_VCPKG_DOWNLOAD_CACHE=ON
@@ -39,6 +38,7 @@ ExternalProject_Add(megamol
 # get dependencies for LuaVis
 ExternalProject_Add(cppfs
     GIT_REPOSITORY https://github.com/straubar/cppfs.git
+    GIT_TAG 871c7c7
     GIT_SHALLOW TRUE
     CMAKE_ARGS
         -DOPTION_BUILD_TESTS=OFF
@@ -47,6 +47,7 @@ ExternalProject_Add(cppfs
 
 ExternalProject_Add(sfml
     GIT_REPOSITORY https://github.com/Marukyu/SFML.git
+    GIT_TAG 3e6b953
     GIT_SHALLOW TRUE
     CMAKE_ARGS
         -DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/sfml
@@ -54,6 +55,7 @@ ExternalProject_Add(sfml
 
 ExternalProject_Add(zlib
     GIT_REPOSITORY https://github.com/madler/zlib.git
+    GIT_TAG 04f42ce
     GIT_SHALLOW TRUE
     CMAKE_ARGS
         -DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/zlib
@@ -61,7 +63,7 @@ ExternalProject_Add(zlib
 
 FetchContent_Declare(luajit_download
     GIT_REPOSITORY https://github.com/LuaJIT/LuaJIT.git
-    GIT_TAG origin/v2.1
+    GIT_TAG 8635cba
     GIT_SHALLOW TRUE
     SOURCE_DIR ${CMAKE_BINARY_DIR}/luajit_download)
 FetchContent_GetProperties(luajit_download)
@@ -82,7 +84,7 @@ endif ()
 # get LuaVis
 ExternalProject_Add(luavis
     GIT_REPOSITORY https://github.com/UniStuttgart-VISUS/LuaVis.git
-    GIT_TAG origin/main
+    GIT_TAG cda8208
     GIT_SHALLOW TRUE
     CMAKE_ARGS
         -Dcppfs_DIR=${CMAKE_BINARY_DIR}/cppfs
