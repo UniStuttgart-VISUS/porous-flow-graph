@@ -60,3 +60,30 @@ Now build and install LuaVis.
 
 Execute the run script.
 By default, an example dataset is loaded and visualized.
+
+
+
+## Replication
+
+To replicate images in the paper, we provide a script to re-create Figures 4a and 12.
+
+### Prerequisites
+
+- Windows 10 or later
+- Graphics driver with OpenGL
+- CMake
+- Git
+- Visual Studio with C++ 17 or later
+
+### Run
+
+Run the script `replication\build.bat`.
+
+### Results
+
+The script downloads, configures, builds, installs, and runs MegaMol and LuaVis.
+
+- It produces Figure 4a as `replication\_fig.4a.png`
+- It starts LuaVis at the state of Figure 12 (no screenshot capability for automatic saving)
+
+**Caution:** MegaMol is started and closes again automatically after saving the screenshot. Please do not close it manually.
