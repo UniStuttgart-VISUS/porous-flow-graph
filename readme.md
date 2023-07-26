@@ -12,21 +12,21 @@ They provide all functionality to read image series from experiments, preprocess
 ### Get the code
 
 You can get MegaMol from its repository at [https://github.com/UniStuttgart-VISUS/megamol](https://github.com/UniStuttgart-VISUS/megamol).
-To make sure that you have a functioning version at the state of publication of our paper, you can checkout TODO.
 
 ### Build steps
 
 Configure MegaMol with CMake by running:  
 ```
 cmake /path/to/source -DMEGAMOL_USE_OPENGL=ON -DMEGAMOL_PLUGIN_IMAGESERIES=ON -DMEGAMOL_PLUGIN_IMAGESERIES_GL=ON
-```  
+```
 This enables the required plugins *imageseries* and *imageseries_gl*.
 
 Now build and install MegaMol.
 
 ### Run example project
 
-todo
+You can find an example project in the MegaMol examples called "porous".
+To run it, simply start MegaMol and load the project.
 
 
 
