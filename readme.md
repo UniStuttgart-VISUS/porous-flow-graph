@@ -1,5 +1,7 @@
 # Visual Analysis of Displacement Processes in Porous Media using Spatio-Temporal Flow Graphs.
 
+*Alexander Straub, Nikolaos Karadimitriou, Guido Reina, Steffen Frey, Holger Steeb, and Thomas Ertl.*
+
 In the following, we will provide information about the implementation for our paper.
 
 If you are interested in replicating some of the figures in our paper, you can use the [replication script](#replication). Otherwise, follow the instructions for [MegaMol](#megamol) and [LuaVis](luavis).
