@@ -10,8 +10,8 @@ cd ..
 
 
 :install
-mklink /D megamol build\megamol
-mklink /D luavis build\luavis\bin
+xcopy /Y /E build\megamol megamol\
+xcopy /Y /E build\luavis\bin luavis\
 
 
 :run_MegaMol
