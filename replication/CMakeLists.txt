@@ -64,7 +64,7 @@ ExternalProject_Add(zlib
 FetchContent_Declare(luajit_download
     GIT_REPOSITORY https://github.com/LuaJIT/LuaJIT.git
     GIT_TAG 8635cba
-    GIT_SHALLOW TRUE
+    GIT_SHALLOW FALSE
     SOURCE_DIR ${CMAKE_BINARY_DIR}/luajit_download)
 FetchContent_GetProperties(luajit_download)
 if (NOT luajit_POPULATED)
