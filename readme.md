@@ -1,3 +1,5 @@
+[![](https://www.replicabilitystamp.org/logo/Reproducibility-small.png)](http://www.replicabilitystamp.org#https-github-com-unistuttgart-visus-porous-flow-graph)
+
 # Visual Analysis of Displacement Processes in Porous Media using Spatio-Temporal Flow Graphs.
 
 *Alexander Straub, Nikolaos Karadimitriou, Guido Reina, Steffen Frey, Holger Steeb, and Thomas Ertl.*
